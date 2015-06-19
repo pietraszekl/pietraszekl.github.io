@@ -7,8 +7,6 @@
     <title>Lukasz Pietraszek - UI developer - London</title>
     <meta name="description" content="UI/Front-end developer with proven track-record over five years in creating clean, accessible and user-friendly responsive websites">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-
     <link rel="stylesheet" href="styles/main.css"/>
 </head>
 <body>
@@ -85,11 +83,11 @@
                         <li class="skills-list-item">HTML5 & CSS3</li>
                         <li class="skills-list-item">JavaScript</li>
                         <li class="skills-list-item">jQuery</li>
-                        <li class="skills-list-item">Git & GitHub</li>
+                        <li class="skills-list-item">Git & SVN</li>
                         <li class="skills-list-item">SVN</li>
                         <li class="skills-list-item">SASS & LESS</li>
                         <li class="skills-list-item">Agile/Scrum experience</li>
-                        <li class="skills-list-item">Responsive, mobile-first sites</li>
+                        <li class="skills-list-item">Responsive/mobile-first sites</li>
                     </ul>
                 </div>
             </div>
@@ -128,15 +126,12 @@
                     <form id="contact-form" class="contact-form" action="#" method="POST">
                       <div class="row">
                         <div class="six columns">
-                          <label for="emailInput">Your email</label>
-                          <input class="u-full-width" type="email" name="_email" placeholder="test@mailbox.com" id="emailInput">
+                            <label for="emailInput">Your email</label>
+                            <input class="u-full-width" type="email" name="_email" placeholder="test@mailbox.com" id="emailInput">
                       </div>
                       <div class="six columns">
-                          <label for="recipientInput">Reason for contacting</label>
-                          <select class="u-full-width" id="recipientInput" name="reason" >
-                            <option value="Let's work together" >Let's work together</option>
-                            <option value="Questions" >Questions</option>
-                        </select>
+                        <label for="recipientInput">Reason for contacting</label>
+                        <input class="u-full-width" type="text" name="reason" placeholder="Job offer" id="recipientInput">
                     </div>
                 </div>
                 <label for="message">Message</label>
@@ -159,7 +154,30 @@
 
 
 
-<script src="scripts/main.js"></script>
+<script async src="scripts/main.js"></script>
+
+<script>
+    WebFontConfig = {
+        google: { families: [ 'Raleway:300,400,600:latin' ] }
+    };
+
+    var cb = function() {
+        var wf = document.createElement('script');
+        wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    };
+
+    var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+
+    if (raf) {
+        raf(cb);
+    } else {
+        window.addEventListener('load', cb);
+    }
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

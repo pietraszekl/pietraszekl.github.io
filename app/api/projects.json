@@ -1,0 +1,139 @@
+{
+  "projects": [
+    {
+      "id": "delhaize-group",
+      "name": "Delhaize Group",
+      "year": "2013/2014",
+      "description": "Developing two e-grocery shops for Delhaize Group. French/Belgian version consist of eshop as well as 'Loyalty on Web' which allows customers to register loyalty cards and to accrue points on purchases where they present the registered card. These were build using Bootstrap 2 and Less. Greek version of e-shop and corporate platform were build using Bootstrap 3 and Sass.",
+      "technologies": [
+        "HTML",
+        "Bootsrap",
+        "Javascript",
+        "jQuery",
+        "Hybris CMS"
+      ],
+      "links": [
+        {
+          "name": "Visit AB website",
+          "url": "http://www.ab.gr/click2shop/"
+        },
+        {
+          "name": "Visit Delhaize website",
+          "url": "http://shop.delhaize.be/"
+        }
+      ],
+      "logo": "images/clients/delhaize-logo.jpg",
+      "screenshots": [
+        "images/delhaize/delhaize-1.jpg",
+        "images/delhaize/delhaize-2.jpg",
+        "images/delhaize/delhaize-3.jpg"
+      ]
+    },
+    {
+      "id": "office",
+      "name": "Office Shoes",
+      "year": "2013/2014",
+      "description": "Creating mobile version of the site for Office shoes using jQuery mobile framework and Hyrbis CMS e-commerce platform. Functionality I've been building includes navigation, grid view and checkout process.",
+      "technologies": [
+        "HTML",
+        "jQuery Mobile",
+        "Hybris CMS"
+      ],
+      "links": [
+        {
+          "name": "Visit mobile website",
+          "url": "http://m.office.co.uk"
+        }
+      ],
+      "logo": "images/clients/office-logo.jpg",
+      "screenshots": [
+        "images/office/office-1.jpg"
+      ]
+    },{
+      "id": "po-ferries",
+      "name": "P&O Ferries",
+      "year": "2014",
+      "description": "Development of templates for desktop version fo rth ewebsite. The pages wre tested and integrated into Hybris CMS e-commerce platform.",
+      "technologies": [
+        "HTML",
+        "Bootstrap 3",
+        "jQuery",
+        "Responsive",
+        "Less",
+        "Hybris CMS"
+      ],
+      "links": [
+        {
+          "name": "Visit P&O Ferries website",
+          "url": "http://www.poferries.com/"
+        }
+      ],
+      "logo": "images/clients/poferries-logo.jpg",
+      "screenshots": [
+        "images/poferries/poferries-1.jpg"
+      ]
+    },{
+      "id": "phones-4u",
+      "name": "Phones 4U",
+      "year": "2013",
+      "description": "Implementation of Hybris CMS and Responsive Web Design for one of largest mobile phone retailers (at that time) in the United Kingdom.",
+      "technologies": [
+        "HTML",
+        "Less",
+        "jQuery",
+        "Bootstrap 3",
+        "Responsive",
+        "Hybris CMS"
+      ],
+      "logo": "images/clients/phones4u-logo.jpg",
+      "screenshots": [
+        "images/phones4u/phones4u-1.jpg",
+        "images/phones4u/phones4u-2.jpg"
+      ]
+    },{
+      "id": "monsoon",
+      "name": "Monsoon/Accessorize",
+      "year": "2013",
+      "description": "I've been working on numbers of change request related to mini basket, checkout view, product grid view and product details pages for both Monsoon and Accessorize sites as well as fixing reported bugs.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "jQuery",
+        "Hybris CMS"
+      ],
+      "links": [
+        {
+          "name": "Visit Monsoon/Accessorize website",
+          "url": "http://uk.monsoon.co.uk"
+        }
+      ],
+      "logo": "images/clients/monsoon-accessorize-logo.jpg",
+      "screenshots": [
+        "images/monsoon/monsoon-1.jpg",
+        "images/monsoon/monsoon-1.jpg"
+      ]
+    },{
+      "id": "bat",
+      "name": "British American Tobacco",
+      "year": "2014/2015",
+      "description": "B2B project developed for British American Tobacco Australia to provided their client base with the best possible experience for desktop as well as tablet/mobile devices when ordering larger volumes of products.",
+      "technologies": [
+        "HTML",
+        "Sass",
+        "jQuery",
+        "Bootstrap 3",
+        "Responsive",
+        "Hybris CMS"
+      ],"links": [
+        {
+          "name": "Visit BAT Veo website",
+          "url": "http://www.mybat.com.au"
+        }
+      ],
+      "logo": "images/clients/bat-logo.jpg",
+      "screenshots": [
+        "images/bat/bat-veo-1.jpg"
+      ]
+    }
+  ]
+}

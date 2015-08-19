@@ -1,0 +1,77 @@
+{
+  "siteName": "Looca",
+  "users": [
+    {
+      "id": "lukasz",
+      "name": "Lukasz Pietraszek",
+      "profession": "UI Developer",
+      "avatar": "images/lukasz-pietraszek.jpg",
+      "bio": "Freelance UI/Front-end developer with proven track-record over five years in creating clean, accessible and user-friendly responsive websites. Self motivated and adaptable, independent minded, with a keen eye for detail. Experienced in working with Agile methodologies.",
+      "specialities": "HTML5, CSS3, Web Design/Development, RWD, Usability, Web Standards, Axure RP",
+      "what": "I hand-code all of my HTML, CSS and Javascript due to the strong belief that robust solutions depend upon a deep understanding of all the front-end code. This discipline also enables efficient fixing of bugs when they arise.",
+      "skills": [
+        "HTML5 & CSS3",
+        "JavaScript",
+        "jQuery",
+        "AngularJS",
+        "Git & SVN",
+        "SASS & LESS",
+        "Agile/Scrum experience",
+        "Responsive/mobile-first sites"
+      ],
+      "clientsText": "During my 5+ years of professional experience I have helped build websites and services for well-known companies.",
+      "testimonials": [
+        {
+          "author": "Simon Davies",
+          "role": "Head of UX at Portaltech Reply",
+          "quote": "Lukasz is a great addition to our UI team at Portaltech Reply. He is a 'go-to' person when you need a quick and complete solution. Technical and with a keen eye for detail, Lukasz also has the rare quality of genuine self drive which has displayed itself whilst being UI project lead for one of our largest global clients."
+        },
+        {
+          "author": "Ali Khan",
+          "role": "UI Developer at Portaltech",
+          "quote": "I had the pleasure working with lukasz and I have absolutely no hesitation to recommend him to anyone. He is a professional, dedicated and hard working individual who keeps himself up to date with the latest technologies and skills. He is a nice guy and I would love to work with him again in the future."
+        },
+        {
+          "author": "Fabio Salimbeni",
+          "role": "Web Developer at BioMed Central",
+          "quote": "Lukasz has a very good knowledge of CSS3 and HTML5. He is really up to date to the new technics and to new frontiers of web developing. His puts his experience and his skills in his job providing opinions even on the UX side. He is a great worker and while we have worked together I haven’t had to assign him few jobs ‘cause he was able to understand what was needed from him by the company. He is always punctual and he has a great respect of the work that is doing."
+        }
+      ],
+      "projects": [
+        {
+          "id": "delhaize-group",
+          "name": "Delhaize Group",
+          "year": "2013/2014",
+          "logo": "images/clients/delhaize-logo.jpg"
+        },
+        {
+          "id": "office",
+          "name": "Office Shoes",
+          "year": "2013/2014",
+          "logo": "images/clients/office-logo.jpg"
+        },
+        {
+          "id": "po-ferries",
+          "name": "P&O Ferries",
+          "year": "2014",
+          "logo": "images/clients/poferries-logo.jpg"
+        },{
+          "id": "phones-4u",
+          "name": "Phones 4U",
+          "year": "2013",
+          "logo": "images/clients/phones4u-logo.jpg"
+        },{
+          "id": "monsoon",
+          "name": "Monsoon/Accessorize",
+          "year": "2013",
+          "logo": "images/clients/monsoon-accessorize-logo.jpg"
+        },{
+          "id": "bat",
+          "name": "British American Tobacco",
+          "year": "2014/2015",
+          "logo": "images/clients/bat-logo.jpg"
+        }
+      ]
+    }
+  ]
+}

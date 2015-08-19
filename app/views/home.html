@@ -1,0 +1,107 @@
+        <section class="section hero">
+            <div class="container">
+                <div class="row">
+                    <img class="hero-profile-img" src="images/lukasz-pietraszek.jpg" alt="Lukasz Pietraszek">
+                    <h2 class="hero-sub-heading">{{main.profession}}</h2>
+                    <hr class="u-hero-divider">
+                    <h1 class="hero-heading">{{main.name}}</h1>
+                    <ul class="contact-icons twelve columns">
+                        <li class="contact-icons-item">
+                            <a href="//twitter.com/pietraszekl">
+                                <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+                                <span class="sr-only"> icon-twitter</span>
+                            </a>
+                        </li>
+                        <li class="contact-icons-item">
+                            <a href="//uk.linkedin.com/in/pietraszekl">
+                                <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+                                <span class="sr-only"> icon-linkedin</span>
+                            </a>
+                        </li>
+                        <li class="contact-icons-item">
+                            <a href="//github.com/Looca">
+                                <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+                                <span class="sr-only"> icon-github</span>
+                            </a>
+                        </li>
+                        <li class="contact-icons-item">
+                            <a href="//plus.google.com/109768437210413970058">
+                                <svg class="icon icon-github"><use xlink:href="#icon-google-plus"></use></svg>
+                                <span class="sr-only"> icon-google-plus</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="section-description">{{main.bio}}</p>
+
+                    <p class="section-description">{{"Specialities: " + main.specialities}}</p>
+                    <a class="button" href="/documents/Lukasz_Pietraszek_CV.pdf" target="blank">Download my CV</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section skills">
+            <div class="container">
+                <h2 class="section-heading">Skills</h2>
+                <div class="row">
+                    <p class="section-description">{{main.what}}</p>
+                </div>
+                <div class="row">
+                    <ul class="skills-list">
+                        <li ng-repeat="skills in main.skills" class="skills-list-item">{{skills}}</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-heading">Clients</h2>
+                <p class="section-description">{{main.clients}}</p>
+                <div class="row">
+                    <a ng-repeat="project in main.projects | limitTo: 6" href="#/project/{{project.id}}" class="four columns img-grayscale-color" title="View project"><img class="u-max-full-width" ng-src="{{project.logo}}" alt="{{project.name}}"></a>
+                </div>
+            </div>
+        </section>
+
+<!--         <section class="section clients">
+            <div class="container">
+                <h2 class="section-heading">Clients</h2>
+                <p class="section-description"></p>
+                <img class="u-max-full-width" src="images/client-logos.jpg" alt="clients list">
+            </div>
+        </section> -->
+
+        <section class="section testimonials">
+            <div class="container">
+                <h2 class="section-heading">Testimonials</h2>
+
+                <div class="row testimonials-list">
+                    <blockquote ng-repeat="testimonial in main.testimonials | limitTo: 3"><p>{{testimonial.quote}}</p>
+                        <footer>— {{testimonial.author}}, <cite>{{testimonial.role}}</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+    <section class="section contact">
+            <div class="container">
+                <h2 class="section-heading">Get in touch</h2>
+                <div class="row">
+                    <form id="contact-form" class="contact-form" action="#" method="POST">
+                      <div class="row">
+                        <div class="six columns">
+                            <label for="emailInput">Your email</label>
+                            <input class="u-full-width" type="email" name="_email" placeholder="test@mailbox.com" id="emailInput">
+                        </div>
+                        <div class="six columns">
+                            <label for="recipientInput">Reason for contacting</label>
+                            <input class="u-full-width" type="text" name="reason" placeholder="Job offer" id="recipientInput">
+                        </div>
+                    </div>
+                    <label for="message">Message</label>
+                    <textarea class="u-full-width" placeholder="Hi Lukasz …" id="message" name="message" rows="6"></textarea>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <!--                 <input type="hidden" name="_next" value="thanks.html" /> -->
+                    <input class="button" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>

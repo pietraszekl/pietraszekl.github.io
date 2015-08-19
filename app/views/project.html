@@ -1,0 +1,38 @@
+<header class="project-header">
+    <div class="container">
+        <span class="navigation-header-title">Clients</span>
+        <a href="../#projects" class="navigation-button-back"><svg class="icon icon-close"><use xlink:href="#icon-close"></use></svg></button></a>
+    </div>
+</header>
+
+<section class="section project">
+    <div class="container">
+        <h1 class="section-heading">{{projectCtrl.project.name}}</h1>
+        <p class="section-description">{{projectCtrl.project.description}}</p>
+        <div class="row">
+
+            <div class="eight columns"> 
+
+                <p class="project-release"><span class="project-release-label">Year:</span> <span class="project-release-date">{{projectCtrl.project.year}}</span></p>
+                <a ng-repeat="link in projectCtrl.project.links" href="{{link.url}}" class="button">{{link.name}}</a>
+            </div>
+            <div class="four columns">
+
+                <p class="list-heading">Technologies:</p>
+                <ul class="list-two-columns">
+                    <li ng-repeat="tech in projectCtrl.project.technologies">{{tech}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="columns">
+                <div class="slider slider-for">
+                    <div>
+                        <img ng-repeat="screenshot in projectCtrl.project.screenshots | limitTo:1" class="u-max-full-width" ng-src="{{screenshot}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

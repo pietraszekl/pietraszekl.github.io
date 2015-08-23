@@ -1,7 +1,7 @@
 'use strict';
 
 ////// Main App - used for configs //////////////////
-var app = angular.module('LoocaApp', ['ngRoute', 'looca.controllers','looca.services']);
+var app = angular.module('LoocaApp', ['ngRoute', 'looca.controllers','looca.services','ocNgRepeat']);
 
 app.config(function ($routeProvider){
 	$routeProvider

@@ -1,12 +1,14 @@
 {
-  "name": "looca-skeleton",
+  "name": "ng-looca",
   "private": true,
   "dependencies": {
     "modernizr": "~2.6.2",
-    "jquery": "~1.10.2"
+    "jquery": "~1.10.2",
+    "ng-repeat-owl-carousel": "*"
   },
   "devDependencies": {
     "angular": "~1.4.3",
-    "angular-route": "~1.4.3"
+    "angular-route": "~1.4.3",
+    "angular-slick": "~0.2.1"
   }
 }

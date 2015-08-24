@@ -9,6 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="styles/main.css"/>
+    <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Lukasz Pietraszek",
+      "url" : "http://looca.co.uk",
+      "sameAs" : [
+        "https://www.linkedin.com/in/pietraszekl",
+        "https://twitter.com/pietraszekl",
+        "https://plus.google.com/109768437210413970058"
+      ]
+    }
+    </script>
 </head>
 <body>
 <svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -54,7 +67,10 @@
         <section class="section hero">
             <div class="container">
                 <div class="row">
-                    <img class="hero-profile-img" src="images/lukasz-pietraszek.jpg" alt="Lukasz Pietraszek">
+                    <div class="hero-profile-img">
+                        <img class="side-front" src="images/looca-side-a.png" alt="Lukasz Pietraszek">
+                        <img class="side-back" src="images/looca-side-b.png" alt="Looca Logo">
+                    </div>
                     <h2 class="hero-sub-heading">UI Developer</h2>
                     <hr class="u-hero-divider">
                     <h1 class="hero-heading">Lukasz Pietraszek</h1>
@@ -127,14 +143,6 @@
             </div>
         </section>
 
-<!--         <section class="section clients">
-            <div class="container">
-                <h2 class="section-heading">Clients</h2>
-                <p class="section-description"></p>
-                <img class="u-max-full-width" src="images/client-logos.jpg" alt="clients list">
-            </div>
-        </section> -->
-
         <section class="section testimonials">
             <div class="container">
                 <h2 class="section-heading">Testimonials</h2>
@@ -171,7 +179,6 @@
                     <label for="message">Message</label>
                     <textarea class="u-full-width" placeholder="Hi Lukasz …" id="message" name="message" rows="6"></textarea>
                     <input type="text" name="_gotcha" style="display:none" />
-                    <!--                 <input type="hidden" name="_next" value="thanks.html" /> -->
                     <input class="button" type="submit" value="Submit">
                 </form>
             </div>

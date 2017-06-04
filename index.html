@@ -9,14 +9,15 @@
 	<meta name="author" content="Lukasz Pietraszek">
 	<meta name="robots" content="index, follow, noodp, noydir">
 	<meta name="application-name" content="Lukasz Pietraszek - Freelance Frontend Developer">
+
 	<meta name="rating" content="General">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="HandheldFriendly" content="true">
 	<meta property="og:title" content="Lukasz Pietraszek - Freelance Frontend Developer, London">
 	<meta property="og:description" content="Lukasz Pietraszek is London based freelance UI & Frontend developer who specialises in responsive websites for B2C and B2B clients using HTML5, CSS, and JavaScript.">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://looca.co.uk/">
-	<meta property="og:image" content="http://looca.co.uk/images/looca-side-a.png">
+	<meta property="og:url" content="/">
+	<meta property="og:image" content="/images/looca-side-a.png">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="Lukasz Pietraszek - Freelance Frontend Developer in London">
 
@@ -25,19 +26,34 @@
 	<meta name="twitter:title" content="Lukasz Pietraszek - Freelance Frontend Developer, London">
 	<meta name="twitter:description" content="Lukasz Pietraszek is London based freelance UI & Frontend developer who specialises in responsive websites for B2C and B2B clients using HTML5, CSS, and JavaScript.">
 	<meta name="twitter:creator" content="@pietraszekl">
-	<meta name="twitter:image:src" content="http://looca.co.uk/images/looca-side-a.png">
+	<meta name="twitter:image:src" content="/images/looca-side-a.png">
 
 	<meta itemprop="name" content="Lukasz Pietraszek - Freelance Frontend Web Developer, London">
 	<meta itemprop="description" content="Lukasz Pietraszek is London based freelance UI & Frontend developer who specialises in responsive websites for B2C and B2B clients using HTML5, CSS, and JavaScript.">
-	<meta itemprop="url" content="http://looca.co.uk/">
-	<meta itemprop="image" content="http://looca.co.uk/images/looca-side-a.png">
+	<meta itemprop="url" content="">
+	<meta name="theme-color" content="#f47a20" />
 
+	<meta itemprop="image" content="/images/looca-side-a.png">
+	<link rel="manifest" href="/manifest.json" />
+	<script>
+		var PATH = '/service-worker.js';
+		var isServiceWorkersSupport = ('serviceWorker' in navigator);
+
+		if (isServiceWorkersSupport) {
+			console.log('Will service worker register?');
+			navigator.serviceWorker.register(PATH).then(function () {
+				console.log("Yes it did.");
+			}).catch(function (err) {
+				console.log("No it didn't. This happened: ", err)
+			});
+		}
+	</script>
 	<script type="application/ld+json">
 		{
 		"@context" : "http://schema.org",
 		"@type" : "Person",
 		"name" : "Lukasz Pietraszek - Frontend Developer, London",
-		"url" : "http://looca.co.uk",
+		"url" : "https://pietraszekl.github.io",
 		"sameAs" : [
 			"https://www.linkedin.com/in/pietraszekl",
 			"https://twitter.com/pietraszekl",
@@ -122,8 +138,18 @@
 	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<div id="app"></div>
-	<script src="client.min.js"></script>
+	<div id="app">
+		<div id="nojs">
+			<h1>Welcome</h1>
+			<p>Lukasz Pietraszek - UI Developer.</p>
+			<p>This site requires JavaScript to be enabled</p>
+		</div>
+
+	</div>
+	<script>
+		document.getElementById('nojs').style.display = 'none'
+	</script>
+	<script async src="client.min.js"></script>
 
 
 </body>

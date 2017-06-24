@@ -3,7 +3,7 @@
   "name": "Lukasz Pietraszek - frontend developer",
   "icons": [
     {
-      "src": "/images/logo/favicon-144x144.png",
+      "src": "/images/favicons/favicon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },

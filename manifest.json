@@ -1,10 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "pietraszekl",
+  "name": "Lukasz Pietraszek - frontend developer",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "/images/logo/favicon-144x144.png",
       "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicons/favicon-200x200.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicons/favicon-200x200.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicons/favicon-200x200.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],

@@ -1,0 +1,92 @@
+{
+  "assetsByChunkName": {
+    "path---projects-bat": [
+      "path---projects-bat-04147811521d768c17d9.js",
+      "path---projects-bat-04147811521d768c17d9.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-ee068db870d812537bba.js",
+      "component---src-pages-index-js-ee068db870d812537bba.js.map"
+    ],
+    "path---": [
+      "path----192005a760abc543aad5.js",
+      "path----192005a760abc543aad5.js.map"
+    ],
+    "path---projects-gucci": [
+      "path---projects-gucci-7f7461788fa137bfa911.js",
+      "path---projects-gucci-7f7461788fa137bfa911.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---projects-poferries": [
+      "path---projects-poferries-17d3489307efe65f647c.js",
+      "path---projects-poferries-17d3489307efe65f647c.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-dc2e2f22c430961f2345.js",
+      "component---src-layouts-index-js-dc2e2f22c430961f2345.js.map"
+    ],
+    "path---projects-delhaize": [
+      "path---projects-delhaize-36e786d542f456bfc6dd.js",
+      "path---projects-delhaize-36e786d542f456bfc6dd.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-project-template-js": [
+      "component---src-templates-project-template-js-cce12ce322883eaaa97e.js",
+      "component---src-templates-project-template-js-cce12ce322883eaaa97e.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-afb5782224ac01f1fa03.js",
+      "build-js-styles.css",
+      "commons-afb5782224ac01f1fa03.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---projects-jackwills": [
+      "path---projects-jackwills-3117682f991dcdf4436a.js",
+      "path---projects-jackwills-3117682f991dcdf4436a.js.map"
+    ],
+    "path---projects-stelladot": [
+      "path---projects-stelladot-3d52620fa562f38319e4.js",
+      "path---projects-stelladot-3d52620fa562f38319e4.js.map"
+    ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-b2c196d0f3486f3e32fe.js",
+      "component---src-pages-projects-js-b2c196d0f3486f3e32fe.js.map"
+    ],
+    "app": [
+      "app-a800bd23581675fe3320.js",
+      "build-js-styles.css",
+      "app-a800bd23581675fe3320.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---projects-phones-4-u": [
+      "path---projects-phones-4-u-d4140b5bae915f5e2d0b.js",
+      "path---projects-phones-4-u-d4140b5bae915f5e2d0b.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---projects-monsoon": [
+      "path---projects-monsoon-1f33a332f12b45100474.js",
+      "path---projects-monsoon-1f33a332f12b45100474.js.map"
+    ],
+    "path---projects-office": [
+      "path---projects-office-9378bb2781cd396491b8.js",
+      "path---projects-office-9378bb2781cd396491b8.js.map"
+    ]
+  }
+}

@@ -20,6 +20,10 @@
       "path---projects-a0e39f21c11f6a62c5ab.js",
       "path---projects-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
     "path---projects-poferries": [
       "path---projects-poferries-0f4a0bb7d1ae0e09c41e.js",
       "path---projects-poferries-0f4a0bb7d1ae0e09c41e.js.map"
@@ -62,14 +66,18 @@
       "path---projects-stelladot-7916407d9a5a6bcb9703.js",
       "path---projects-stelladot-7916407d9a5a6bcb9703.js.map"
     ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-projects-js": [
       "component---src-pages-projects-js-b2c196d0f3486f3e32fe.js",
       "component---src-pages-projects-js-b2c196d0f3486f3e32fe.js.map"
     ],
     "app": [
-      "app-6b6c862b40d1e8299216.js",
+      "app-980d23a8c90f19ba190e.js",
       "build-js-styles.css",
-      "app-6b6c862b40d1e8299216.js.map",
+      "app-980d23a8c90f19ba190e.js.map",
       "build-js-styles.css.map"
     ],
     "path---projects-phones-4-u": [
